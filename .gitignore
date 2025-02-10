@@ -1,0 +1,2 @@
+#Ignorar tudo que estiver dentro da pasta __pycache__.
+__pycache__/
