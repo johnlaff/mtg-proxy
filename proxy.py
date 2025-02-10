@@ -63,6 +63,10 @@ def converter_para_63x88_mm(pasta_entrada: str, pasta_saida: str, dpi: int = 600
     # Converte 63x88 mm para pixels (usando dpi)
     largura_px = int((63 / 25.4) * dpi)
     altura_px  = int((88 / 25.4) * dpi)
+
+    # Cria a pasta de entrada, se não existir   
+    if not os.path.exists(pasta_entrada):
+        os.makedirs(pasta_entrada)
     
     # Cria a pasta de saída, se não existir
     if not os.path.exists(pasta_saida):
