@@ -1,2 +1,6 @@
 #Ignorar tudo que estiver dentro da pasta __pycache__.
 __pycache__/
+cartas_A4.pdf
+cartas_A4_comprimido.pdf
+imagens/
+cartas/
